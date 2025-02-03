@@ -1,0 +1,6 @@
+train: /Users/kimboyoon/Desktop/yolov_11_custom/train
+val: /Users/kimboyoon/Desktop/yolov_11_custom/val
+
+nc: 2
+
+names: ["chocolate", "beer"]
