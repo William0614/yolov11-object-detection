@@ -1,0 +1,13 @@
+train: ../v3/choc beer.v2i.yolov11/datasets/train/images
+val: ../v3/choc beer.v2i.yolov11/datasets/valid/images
+test: ../v3/choc beer.v2i.yolov11/datasets/test/images
+
+nc: 2
+names: ['beer', 'chocolate']
+
+roboflow:
+  workspace: yolov11customrobo
+  project: choc-beer
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov11customrobo/choc-beer/dataset/2
